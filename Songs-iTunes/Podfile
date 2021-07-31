@@ -1,0 +1,19 @@
+target 'Songs-iTunes' do
+  use_frameworks!
+
+  # Networking pods
+  pod 'Alamofire', '~> 5.2'
+  
+  # UI pods
+  pod 'MaterialComponents/Chips'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'NVActivityIndicatorView'
+
+  target 'Songs-iTunesTests' do
+    inherit! :search_paths
+  end
+
+  target 'Songs-iTunesUITests' do
+  end
+
+end
